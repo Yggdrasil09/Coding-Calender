@@ -18,3 +18,40 @@ Contest Name: ZCO Practice Contest
 Start time: 05 Nov 2015  00:00:00
 End time 05 Jan 2020  00:00:00
 
+Future Contests : 
+
+Competion code : ALMA2019
+Contest Name: Algomaniac
+Start time: 04 Mar 2019  19:30:00
+End time 04 Mar 2019  21:30:00
+
+
+Competion code : COEN2019
+Contest Name: Code Queen
+Start time: 04 Mar 2019  21:30:00
+End time 05 Mar 2019  00:00:00
+
+
+Competion code : POLP2019
+Contest Name: Prayatna 2019 OLPC 
+Start time: 05 Mar 2019  20:00:00
+End time 05 Mar 2019  23:00:00
+
+
+Competion code : BCR12019
+Contest Name: BleedCode, Round 1
+Start time: 09 Mar 2019  19:00:00
+End time 09 Mar 2019  22:00:00
+
+
+Competion code : COOK104
+Contest Name: March Cook-Off 2019
+Start time: 17 Mar 2019  21:30:00
+End time 18 Mar 2019  00:00:00
+
+
+Competion code : LTIME70
+Contest Name: March Lunchtime 2019
+Start time: 23 Mar 2019  19:30:00
+End time 23 Mar 2019  22:30:00
+

@@ -22,13 +22,16 @@ for x in data:
         elements = soup.select(".dataTable")
         competitions.write("Present Contests : \n")
         # for element with present contests
-        # print(type(elements[0]))
         index = elements[0].select('tbody tr')
-        # print(len(index))
         for tags in index:
             td = tags.select("td")
             competitions.write('\nCompetion code : '+td[0].getText()+'\nContest Name: '+td[1].getText()+'\nStart time: '+td[2].getText()+'\nEnd time '+td[3].getText()+'\n\n')
-    
+        competitions.write("Future Contests : \n")
+        # for element with future contests
+        index = elements[1].select('tbody tr')
+        for tags in index:
+            td = tags.select("td")
+            competitions.write('\nCompetion code : '+td[0].getText()+'\nContest Name: '+td[1].getText()+'\nStart time: '+td[2].getText()+'\nEnd time '+td[3].getText()+'\n\n')
     
 competitions.close()
 
