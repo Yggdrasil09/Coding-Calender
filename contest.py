@@ -12,14 +12,24 @@ for x in data:
     if x == "Codechef":
         headers = {'user-agent' : 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Mobile Safari/537.36' }
         res = requests.get(data[x],headers=headers)
-    # print(res.text[:5000])
+    # print(res.text[:30000])
     try:
         res.raise_for_status()
     except Exception as exc :
         competitions.write(str(exc)+'\n')
     soup = bs4.BeautifulSoup(res.text,"lxml")
-    # print(type(soup))
+    if x == 'Codechef':
+        elements = soup.select(".dataTable")
+        competitions.write("Present Contests : \n")
+        # for element with present contests
+        # print(type(elements[0]))
+        index = elements[0].select('tbody tr')
+        # print(len(index))
+        for tags in index:
+            td = tags.select("td")
+            competitions.write('\nCompetion code : '+td[0].getText()+'\nContest Name: '+td[1].getText()+'\nStart time: '+td[2].getText()+'\nEnd time '+td[3].getText()+'\n\n')
     
-
+    
+competitions.close()
 
 
