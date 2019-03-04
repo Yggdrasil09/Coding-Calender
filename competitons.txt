@@ -1,5 +1,12 @@
-Codechef
+
+***	Codechef	***
 Present Contests : 
+
+Competion code : ALMA2019
+Contest Name: Algomaniac
+Start time: 04 Mar 2019  19:30:00
+End time 04 Mar 2019  21:30:00
+--------------------------------------------------------------------------------------
 
 Competion code : MARCH19
 Contest Name: March Challenge 2019
@@ -19,12 +26,6 @@ Start time: 05 Nov 2015  00:00:00
 End time 05 Jan 2020  00:00:00
 --------------------------------------------------------------------------------------
 Future Contests : 
-
-Competion code : ALMA2019
-Contest Name: Algomaniac
-Start time: 04 Mar 2019  19:30:00
-End time 04 Mar 2019  21:30:00
---------------------------------------------------------------------------------------
 
 Competion code : COEN2019
 Contest Name: Code Queen
@@ -55,7 +56,8 @@ Contest Name: March Lunchtime 2019
 Start time: 23 Mar 2019  19:30:00
 End time 23 Mar 2019  22:30:00
 --------------------------------------------------------------------------------------
-Codeforces
+
+***	Codeforces	***
 Current or upcoming contests : 
 
 Contest name : 
@@ -105,7 +107,8 @@ Duration :
         02:00
     
 --------------------------------------------------------------------------------------
-HackerRank
+
+***	HackerRank	***
 Live contests : 
 
 Contest name : ProjectEuler+
@@ -117,3 +120,5 @@ Start time : 2019-03-16T17:00:00.000Z
 End time : 2019-03-17T17:00:00.000Z
 Duration : PT24H
 --------------------------------------------------------------------------------------
+
+***	Kaggle	***
