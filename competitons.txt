@@ -5,53 +5,103 @@ Competion code : MARCH19
 Contest Name: March Challenge 2019
 Start time: 01 Mar 2019  15:00:00
 End time 11 Mar 2019  15:00:00
-
+--------------------------------------------------------------------------------------
 
 Competion code : INOIPRAC
 Contest Name: INOI Practice Contest
 Start time: 05 Jan 2016  00:00:00
 End time 05 Jan 2020  00:00:00
-
+--------------------------------------------------------------------------------------
 
 Competion code : ZCOPRAC
 Contest Name: ZCO Practice Contest
 Start time: 05 Nov 2015  00:00:00
 End time 05 Jan 2020  00:00:00
-
+--------------------------------------------------------------------------------------
 Future Contests : 
 
 Competion code : ALMA2019
 Contest Name: Algomaniac
 Start time: 04 Mar 2019  19:30:00
 End time 04 Mar 2019  21:30:00
-
+--------------------------------------------------------------------------------------
 
 Competion code : COEN2019
 Contest Name: Code Queen
 Start time: 04 Mar 2019  21:30:00
 End time 05 Mar 2019  00:00:00
-
+--------------------------------------------------------------------------------------
 
 Competion code : POLP2019
 Contest Name: Prayatna 2019 OLPC 
 Start time: 05 Mar 2019  20:00:00
 End time 05 Mar 2019  23:00:00
-
+--------------------------------------------------------------------------------------
 
 Competion code : BCR12019
 Contest Name: BleedCode, Round 1
 Start time: 09 Mar 2019  19:00:00
 End time 09 Mar 2019  22:00:00
-
+--------------------------------------------------------------------------------------
 
 Competion code : COOK104
 Contest Name: March Cook-Off 2019
 Start time: 17 Mar 2019  21:30:00
 End time 18 Mar 2019  00:00:00
-
+--------------------------------------------------------------------------------------
 
 Competion code : LTIME70
 Contest Name: March Lunchtime 2019
 Start time: 23 Mar 2019  19:30:00
 End time 23 Mar 2019  22:30:00
+--------------------------------------------------------------------------------------
+Codeforces
+Current or upcoming contests : 
 
+Contest name : 
+Microsoft Q# Coding Contest - Winter 2019                
+Start time : 
+
+Mar/01/2019 20:00
+
+
+Duration : 
+        3:00:00
+    
+--------------------------------------------------------------------------------------
+
+Contest name : 
+Educational Codeforces Round 61 (Rated for Div. 2)    
+Start time : 
+
+Mar/05/2019 18:05
+
+
+Duration : 
+        02:00
+    
+--------------------------------------------------------------------------------------
+
+Contest name : 
+Codeforces Round #544 (Div. 3)    
+Start time : 
+
+Mar/07/2019 18:05
+
+
+Duration : 
+        02:00
+    
+--------------------------------------------------------------------------------------
+
+Contest name : 
+Codeforces Global Round 2    
+Start time : 
+
+Apr/06/2019 14:35
+
+
+Duration : 
+        02:00
+    
+--------------------------------------------------------------------------------------
