@@ -1,6 +1,7 @@
 import requests
 import bs4
 import json
+import email.utils as EU  
 
 with open('sites.json') as f:
     data = json.load(f)
@@ -42,6 +43,22 @@ for x in data:
         for tags in index :
             td = tags.select("td")
             competitions.write('\nContest name : '+td[0].contents[0]+'\nStart time : '+ td[2].getText()+'\nDuration : '+td[3].getText())
+            competitions.write("\n--------------------------------------------------------------------------------------\n")
+    elif x == 'HackerRank':
+        elements = soup.select('.contests-active')
+        competitions.write("Live contests : \n")
+        li = elements[0].select('li')
+        for tags in li:
+            name = tags.select('.contest-name')
+            competitions.write("\nContest name : " + name[0].getText())
+            time = tags.select('.fnt-sz-small')
+            if len(time[0].contents[0]) >1:
+                competitions.write("\nStart time : " + time[0].getText())
+            else :
+                now = time[0].select('meta')
+                competitions.write("\nStart time : "+now[0]['content'])
+                competitions.write("\nEnd time : "+now[1]['content'])
+                competitions.write("\nDuration : "+now[2]['content'])
             competitions.write("\n--------------------------------------------------------------------------------------\n")
 
 competitions.close()
